@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;600;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 10px;
+  padding: 0;
+  background-color: #734f9a;
+}
+
+.box-fruit {
+  border: 3px solid #e6770b;
+  border-radius: 30px;
+  width: 50vh;
+  margin: auto;
+  background-color: #3f6d4e;
+  box-shadow: 22px 23px 27px -22px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 22px 23px 27px -22px rgba(0,0,0,0.75);
+  -moz-box-shadow: 22px 23px 27px -22px rgba(0,0,0,0.75);
+}
+
+.menu {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.menu label {
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.menu label:hover {
+  color: #8bd450;
+}
+
+.search {
+  padding: 10px;
+  border: 3px solid #1d1a2f;
+  width: 255px;
+  border-radius: 5px; 
+  font-size: 16px; 
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search:focus {
+  outline: none; 
+  border-color: #8bd450; 
+  box-shadow: 0 0 5px rgba(139, 212, 80, 0.5);
+}
+
+.check-box {
+  appearance: none; 
+  display: inline-flex;
+  align-items: center;
+  width: 16px; 
+  height: 16px; 
+  background-color: white;
+  border: 2px solid #1d1a2f; 
+  border-radius: 3px; 
+  outline: none; 
+  cursor: pointer;
+  vertical-align: middle; 
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.check-box:checked {
+  background-color: #8bd450;
+  border-color: #8bd450;
+}
+
+.category {
+  font-size: 24px; 
+  font-family: 'Playpen Sans', cursive;
+  color: #965fd4;
+}
+
+.name-fruit {
+  color: #8bd450;
+}
+
+.table-fruit {
+  border-radius: 10px;
+  padding: 35px;
+  background-color: #1d1a2f;
+  margin: auto;
+  margin-bottom: 30px;
+  box-shadow: 22px 23px 27px -22px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 22px 23px 27px -22px rgba(0,0,0,0.75);
+  -moz-box-shadow: 22px 23px 27px -22px rgba(0,0,0,0.75);
+}
+
+.name-fruit {
+  padding: 10px;
+}
+
+.price {
+  color: white;
+  padding-left: 40px;
+}
+
+.name-price {
+  text-align: left;
+  font-family: 'Playpen Sans', cursive;
+  font-size: 24px; 
+  color: white;
+}
+
+tbody > * {
+  margin-right: 50px;
+}
+
+.productname-price {
+  font-family: 'Playpen Sans', cursive;
+}
